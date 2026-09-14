@@ -1,0 +1,26 @@
+{
+    "name": "Capacitação IaC - Aplicações Nacionais",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "args": {
+            "USERNAME": "iac",
+            "USER_UID": "1000",
+            "USER_GID": "1000"
+        }
+    },
+    "remoteUser": "iac",
+    "workspaceMount": "source=${localWorkspaceFolder},target=/treinamento,type=bind",
+    "workspaceFolder": "/treinamento",
+    "overrideCommand": false,
+    "privileged": true,
+    "containerEnv": {
+        "DEVCONTAINER": "true"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "hashicorp.terraform"
+            ]
+        }
+    }
+}
