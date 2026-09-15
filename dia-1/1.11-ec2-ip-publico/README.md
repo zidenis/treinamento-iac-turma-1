@@ -1,4 +1,4 @@
-# Atividade 01
+# Criar Instância EC2 com IP público
 
 Provisionar uma instância EC2 com IP público e acesso SSH liberado apenas para IP do usuário
 
