@@ -36,6 +36,9 @@ sudo docker run --privileged --rm -it -v "$(pwd):/treinamento" zidenis/treinamen
 
 ## Dia 2
 
+- [ ] Uso de Template para Criação de Módulos Filhos (2.01-child-module)
+- [ ] Módulo Raiz com Backend Remoto para Terraform State (2.02-root-module-tfstate)
+
 ## Dia 3
 
 ## Dia 4

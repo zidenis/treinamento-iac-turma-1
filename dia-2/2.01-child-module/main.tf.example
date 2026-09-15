@@ -1,0 +1,4 @@
+# Exemplo de uso do template terraform-aws-child-module-template
+resource "aws_iam_user" "child_module_user" {
+  name = "treinamento-iac-child-module-user"
+}
