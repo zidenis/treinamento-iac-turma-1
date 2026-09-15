@@ -62,7 +62,7 @@ A AWS apoia este treinamento com o fornecimento de contas AWS para realização 
     # origin  https://git.pje.csjt.jus.br/cloud/iac/treinamento-iac.git (fetch)
     # origin  https://git.pje.csjt.jus.br/cloud/iac/treinamento-iac.git (push)
     sudo docker run --privileged --rm -it -v "$(pwd):/treinamento" \
-      -v ".aws:/home/iac/.aws" zidenis/treinamento-iac-nuvem-jt:2.0.0
+      -v ".aws:/home/iac/.aws" zidenis/treinamento-iac-nuvem-jt:2.2.0
     # Sempre que iniciar o container, defina a variável de ambiente AWS_PROFILE e verifique se o AWS CLI está utilizando o perfil correto.
     export AWS_PROFILE="treinamento"
     aws sts get-caller-identity

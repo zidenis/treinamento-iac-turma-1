@@ -17,7 +17,7 @@ Pré-requisitos:
 git clone https://[pat_name]:[glpat_value]@git.pje.csjt.jus.br/cloud/iac/treinamento-iac.git
 cd treinamento-iac/
 # Iniciar o container Docker padronizado do treinamento
-sudo docker run --privileged --rm -it -v "$(pwd):/treinamento" zidenis/treinamento-iac-nuvem-jt:2.1.0
+sudo docker run --privileged --rm -it -v "$(pwd):/treinamento" zidenis/treinamento-iac-nuvem-jt:2.2.0
 ```
 
 ### Atividades
