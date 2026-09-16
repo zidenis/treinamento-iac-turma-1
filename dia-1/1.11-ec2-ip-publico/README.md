@@ -44,7 +44,7 @@ terraform apply "tfplan"
 
 ## Validar a Atividade
 
-- Verifique no console o status da instancia EC2
+- Verifique no [console AWS](https://console.aws.amazon.com/) o status da instancia EC2
 - Realize acesso SSH à instância EC2:
 
 ```bash
